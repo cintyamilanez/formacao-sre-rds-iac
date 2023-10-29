@@ -9,12 +9,3 @@ resource "aws_security_group" "wordpress_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
-
-resource "aws_db_subnet_group" "wordpress_db_subnet_group" {
-  name        = "example"
-  description = "example"
-  subnet_ids = [
-    data.aws_subnet.wordpress_private_subnet_1.id,
-    data.aws_subnet.wordpress_private_subnet_2.id
-  ]
-}
