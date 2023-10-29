@@ -1,6 +1,6 @@
 # Formação SRE Network IaC
 
-This project "formacao-sre-rds-iac" is about creating a relational database service (RDS) infrastructure as code using Terraform for an SRE (Site Reliability Engineering) formation.
+This project "**formacao-sre-rds-iac**" is about creating a **relational database service (RDS) infrastructure** as code using Terraform for an SRE (Site Reliability Engineering) formation.
 
 ## Requirements
 
@@ -56,3 +56,5 @@ No modules.
 ## Outputs
 
 No outputs.
+
+![image](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
